@@ -1,0 +1,126 @@
+html,
+body {
+  font-family: "Nunito Sans", sans-serif;
+  height: 100%;
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  color: #757575;
+}
+
+h1 {
+  color: #374045;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+form {
+  padding-left: 30px;
+}
+
+a {
+  color: #fff;
+  font-size: 10px;
+  margin-left: 500px;
+}
+
+small {
+  margin-left: 15px;
+}
+
+.container {
+  max-width: 1000px;
+  margin-top: 50px;
+  overflow: auto;
+}
+
+.today-weather {
+  color: #374045;
+  margin-left: 65px;
+}
+
+.weather-details-title {
+  font-weight: bold;
+}
+
+.weather-details-left {
+  font-size: smaller;
+  left: 25px;
+  position: relative;
+  padding-top: 30px;
+}
+
+.weather-details-right {
+  font-size: smaller;
+  left: 55px;
+  position: relative;
+  padding-top: 30px;
+}
+
+.current-info {
+  font-size: 15px;
+}
+
+#location-button {
+  border-radius: 5px;
+  margin-left: -110px;
+}
+
+hover.location-button {
+  cursor: pointer;
+}
+
+#search-button {
+  border-radius: 5px;
+}
+
+hover.search-button {
+  cursor: pointer;
+}
+
+#celsius-link {
+  color: #757575;
+  font-weight: lighter;
+  font-size: 18px;
+  margin-left: 435px;
+  text-align: center;
+}
+
+#fahrenheit-link {
+  color: #757575;
+  font-weight: lighter;
+  font-size: 18px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#temp {
+  color: #757575;
+  font-weight: lighter;
+  font-size: 30px;
+  text-align: center;
+}
+
+#current-date {
+  font-size: 13px;
+}
+
+#current-time {
+  font-size: 13px;
+}
+
+#weather-status {
+  margin: 0 auto;
+  font-size: 23px;
+}
+
+#humidity {
+  font-size: 14px;
+}
+
+#wind-speed {
+  font-size: 14px;
+}
